@@ -31,5 +31,6 @@ export default function ExpensesLayout() {
 }
 
 export function loader() {
+  console.log('EXPENSES LOADER');
   return getExpenses();
 }
