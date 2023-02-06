@@ -1,9 +1,9 @@
 import { Form, Link } from '@remix-run/react';
 
 function ExpenseListItem({ id, title, amount }) {
-  function deleteExpenseItemHandler() {
-    // tbd
-  }
+  // function deleteExpenseItemHandler() {
+  // tbd
+  // }
 
   return (
     <article className='expense-item'>
