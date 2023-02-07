@@ -276,3 +276,45 @@ button {
     transform: translateY(0);
   }
 }
+
+.modal-confirm {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-confirm-content {
+  width: 350px;
+  background-color: #fff;
+  color: #5d00ff;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.modal-confirm-header {
+  padding: 10px;
+}
+
+.modal-confirm-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-confirm-title {
+  color: #5d00ff;
+  margin: 0;
+  text-align: center;
+}
+
+.modal-confirm-body {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}

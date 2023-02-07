@@ -3,7 +3,7 @@
 import { redirect } from '@remix-run/node';
 import { useNavigate } from '@remix-run/react';
 
-import Modal from '~/components/util/Modal';
+import ModalRoute from '~/components/util/ModalRoute';
 import ExpenseForm from '~/components/expenses/ExpenseForm';
 
 import { addExpense } from '~/data/expenses.server';
@@ -18,9 +18,9 @@ export default function AddExpensesPage() {
   }
 
   return (
-    <Modal onClose={closeHandler}>
+    <ModalRoute onClose={closeHandler}>
       <ExpenseForm />
-    </Modal>
+    </ModalRoute>
   );
 }
 

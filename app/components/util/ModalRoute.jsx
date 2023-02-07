@@ -1,4 +1,4 @@
-function Modal({ children, onClose }) {
+function ModalRoute({ children, onClose }) {
   return (
     <div className='modal-backdrop' onClick={onClose}>
       <dialog
@@ -12,4 +12,4 @@ function Modal({ children, onClose }) {
   );
 }
 
-export default Modal;
+export default ModalRoute;
