@@ -318,3 +318,9 @@ button {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
+
+.ieid {
+  color: 'black';
+  text-align: center;
+  border-radius: 5px;
+}
