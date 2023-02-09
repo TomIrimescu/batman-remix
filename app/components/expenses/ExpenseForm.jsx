@@ -108,7 +108,10 @@ function ExpenseForm() {
         </ul>
       )}
       <div className='form-actions'>
-        <button disabled={isSubmitting}>
+        <button
+          disabled={isSubmitting}
+          formMethod={expenseData ? 'patch' : 'post'}
+        >
           {isSubmitting ? 'Saving...' : 'Save Expense'}
         </button>
         <Link to='..'>Cancel</Link>

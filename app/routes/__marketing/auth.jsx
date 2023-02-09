@@ -11,7 +11,7 @@ export async function action({ request }) {
   const authMode = searchParams.get('mode') || 'login';
 
   const formData = await request.formData();
-  credentials = Object.fromEntries(formData);
+  const credentials = Object.fromEntries(formData);
 
   // validate user input
 
