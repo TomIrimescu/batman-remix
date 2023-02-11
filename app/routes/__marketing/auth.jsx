@@ -37,3 +37,10 @@ export async function action({ request }) {
 export function links() {
   return [{ rel: 'stylesheet', href: authStyles }];
 }
+
+export function meta() {
+  return {
+    title: 'Login | Signup',
+    description: 'Login or register.',
+  };
+}

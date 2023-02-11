@@ -59,3 +59,10 @@ export async function loader({ request }) {
 // export function CatchBoundary() {
 //   return <p>Error</p>;
 // }
+
+export function meta() {
+  return {
+    title: 'Manage expenses',
+    description: 'Manage your expenses in one place.',
+  };
+}

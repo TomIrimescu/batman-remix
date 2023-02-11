@@ -40,3 +40,10 @@ export async function action({ request }) {
   await addExpense(expenseData, userId);
   return redirect('/expenses');
 }
+
+export function meta() {
+  return {
+    title: 'Add an expense',
+    description: 'Add an expense with ease.',
+  };
+}

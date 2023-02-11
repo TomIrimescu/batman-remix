@@ -51,3 +51,10 @@ export function CatchBoundary() {
     </main>
   );
 }
+
+export function meta() {
+  return {
+    title: 'Analyze expenses',
+    description: 'View your monthly expenses.',
+  };
+}
