@@ -1,5 +1,3 @@
-import { redirect } from '@remix-run/node';
-
 import AuthForm from '~/components/auth/AuthForm';
 import { signup, login } from '~/data/auth.server';
 import { validateCredentials } from '~/data/validation.server';
