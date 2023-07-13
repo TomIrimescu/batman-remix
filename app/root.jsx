@@ -10,6 +10,7 @@ import {
 } from '@remix-run/react';
 
 import sharedStyles from '~/styles/shared.css';
+import tailwindStyles from '~/styles/app.css';
 import Error from '~/components/util/Error';
 
 export const meta = () => ({
@@ -92,5 +93,8 @@ export function ErrorBoundary({ error }) {
 }
 
 export function links() {
-  return [{ rel: 'stylesheet', href: sharedStyles }];
+  return [
+    { rel: 'stylesheet', href: sharedStyles },
+    { rel: 'stylesheet', href: tailwindStyles },
+  ];
 }
